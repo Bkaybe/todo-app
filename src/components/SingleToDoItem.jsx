@@ -4,7 +4,7 @@ import PrimaryButton from "./PrimaryButton";
 
 const SingleToDoItem = ({ todo }) => {
   return (
-    <div className="todo">
+    <div className="flex flex-col items-center justify-between rounded-2xl border-2 border-[#685254] p-4 text-lg md:flex-row lg:items-center">
       <div className="todo-item">
         <Checkbox />
         <p>{todo.title}</p>
